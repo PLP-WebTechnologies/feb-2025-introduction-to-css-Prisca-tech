@@ -1,0 +1,54 @@
+.head.nav {
+  background: #333;
+  padding: 10px;
+}
+
+.head.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.head.nav ul li {
+  display: inline;
+}
+
+.head.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.head.nav a:hover {
+  text-decoration: underline;
+}
+
+.image {
+  overflow: hidden;
+
+}
+
+.section {
+  background-color: bisque;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #f4a261;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
