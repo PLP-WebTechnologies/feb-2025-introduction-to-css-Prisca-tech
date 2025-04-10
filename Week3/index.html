@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS styling test</title>
+</head>
+<body>
+  <div class="image-container">
+    <img src="https://images.pexels.com/photos/6929017/pexels-photo-6929017.jpeg" 
+    alt="image of an aplication form">
+  </div>    
+   <div class="contact-container" id="contact-container">
+    <table border="1">
+      <thead>
+          <caption>Contact Information</caption>
+          <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Sandra</td>
+              <td>kaduna</td>
+              <td>08036789952</td>
+              <td>sandra@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Grace</td>
+                <td>pecham</td>
+                <td>+22414356704</td>
+                <td>gracedivine3@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Hailey</td>
+                <td>Minesota</td>
+                <td>+23903756900</td>
+                <td>hailey@yahoo.com</td>
+              </tr>
+              <tr>
+                <td>Divine</td>
+                <td>pecham</td>
+                <td>+22419435678</td>
+                <td>gracedivine3@gmail.com</td>
+              </tr>
+              <tr>
+                <td>Beloved</td>
+                <td>pecham</td>
+                <td>+22471435675</td>
+                <td>gracedivine3@gmail.com</td>
+              </tr>
+      </tbody>
+    </table>
+   </div>
+   
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <!-- Registration Form -->
+  <form action="/submit" method="post">
+    <h2>Register</h2>
+
+    <!-- Name Field -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Janet Doe" required><br><br>
+
+    <!--Address Field-->
+    <label for="address">Address</label><br>
+    <input type="address" id="address" name="address" placeholder="No 1, street name city"><br><br>
+
+    <!--Mobile Number Field-->
+    <label for="mobile-number">Phone Number:</label><br>
+      <input type="number" id="number" name="number" placeholder="+234" required><br><br>
+
+    <!-- Email Field -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+    <!-- Password Field -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6"><br><br>
+
+    <!-- Date Field -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country" required>
+      <option value="">Select your country</option>
+      <option value="us">United States</option>
+      <option value="uk">United Kingdom</option>
+      <option value="ng">Nigeria</option>
+      <option value="ug">Uganda</option>
+      <option value="sa">South Africa</option>
+      <option value="ky">Kenya</option>
+      <option value="zm">Zimbabwe</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+    <input type="radio" id="others" name="gender" value="others" required>
+    <label for="others">Others</label><br><br>
+
+    <!-- Checkboxes -->
+    <p>Interests:</p>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="music" name="interests" value="music">
+    <label for="music">Music</label><br>
+    <input type="checkbox" id="reserach" name="interests" value="research">
+    <label for="sports">Research</label><br>
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Register</button>
+  </form>
+    </fieldset>
+</body>
+</html>
